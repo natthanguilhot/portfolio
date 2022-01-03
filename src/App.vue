@@ -3,7 +3,7 @@
     <div class="mx-auto px-8 sm:flex max-w-screen-xl">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
         <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
-        <h1 class="text-5xl lg:text-6xl">Je suis Natthan GUILHOT</h1>
+        <h1 class="text-5xl lg:text-7xl">Je suis Natthan GUILHOT</h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
         <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
       </div>
@@ -19,7 +19,7 @@
         <h2 class="text-4xl font-bold">PROFIL</h2>
         <p class="my-8">Je suis un développeur Vue.js</p>
       </div>
-      <div class="sm:flex sm:justify-center sm:items-start sm:space-x-12 h-min">
+      <div class="sm:flex sm:justify-around sm:items-start sm:space-x-12 h-min">
         <div class="sm:w-3/12">
           <h3 class="text-3xl">A propos</h3>
           <p class="my-8">Je suis un développeur web full-stack. Avec un an d'alternance dans une start-up, diplomé de l'école OpenClassRooms.</p>
@@ -36,26 +36,26 @@
             <p>Bouches-du-Rhone, France</p>
           </div>
           <div class="flex justify-start items-center space-x-4 my-8">
-            <a href="https://www.linkedin.com/in/natthanguilhot" class="text-5xl text-[#007BB5]"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:natthan.dev@gmail.com" class="text-5xl text-[#db4a39]"><i class="fas fa-envelope"></i></a>
-            <a href=""></a>
+            <a aria-label="Lien vers mon Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/natthanguilhot" class="text-5xl text-[#007BB5]"><i class="fab fa-linkedin">LinkedIn</i></a>
+            <a aria-label="Lien vers mon adresse mail" href="mailto:natthan.dev@gmail.com" class="text-5xl text-[#db4a39]"><i class="fas fa-envelope">Mail</i></a>
+            <a aria-label="Lien vers mon profil Malt" href="https://www.malt.fr/profile/natthanguilhot?overview=true" target="_blank" rel="noopener"><img src="./assets/malt-red.svg" alt="Profil Malt" class="h-10 w-10"></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="text-left px-8 text-lg my-8 max-w-screen-xl lg:mx-auto">
+    <section class="text-left px-8 text-lg my-8 max-w-screen-xl lg:mx-auto lg:mb-40">
       <h2 class="text-4xl font-bold underline underline-offset-4 decoration-8 decoration-orange-600 my-8">A PROPOS DE MOI</h2>
       <p>
         <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant de développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-orange-600 decoration-orange-600 decoration-4 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, ça ne me plaisait pas, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
       </p>
-      <div class="h-[400px] w-[350px] bg-orange-600 w-10/12 mx-auto text-white p-4 space-y-4 my-8">
+      <div class="h-[400px] !w-[350px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
         <p class="font-bold text-xl">EMAIL</p>
         <p>natthan.dev@gmail.com</p>
         <p class="font-bold text-xl">PROFESSION</p>
         <p>Développeur web full-stack</p>
       </div>
-      <p> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client ( pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.</p>
+      <p class="lg:mt-2"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client ( pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.</p>
     </section>
 
     <section class="bg-gray-300 py-8">
@@ -142,22 +142,35 @@
     <section class="bgafter relative z-10 py-8 my-16 sm:relative max-w-screen-xl lg:mx-auto">
       <div class="px-8 sm:flex sm:flex-wrap sm:space-y-8">
         <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <img src="./assets/screen_vrtig0.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          <a href="https://vrtig0.fr" target="_blank" rel="noopener">
+            <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
         </div>
         <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <img src="./assets/screen_hyvirea.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          <a href="https://hyvirea.fr" target="_blank" rel="noopener">
+            <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
         </div>
         <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <img src="./assets/screen_skincasts.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          <a href="">
+            <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
         </div>
         <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <img src="./assets/screen_vrtig0.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
+            <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
+        </div>
+        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+          <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
+            <img src="./assets/screenmangaup.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
         </div>
       </div>
-      <div class="px-8 bg-white h-auto py-4 sm:w-8/12 sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0">
+      <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:translate-x-[45rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
         <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessible à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés car non ouvert au public</p>
-        <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl">Me contacter</a>
+        <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl hover:text-white">Me contacter</a>
       </div>
     </section>
   </main>
@@ -181,13 +194,13 @@
       </div>
       <div>
         <form action="" class="flex flex-col space-y-8 my-8 justify-center items-start">
-          <label for="">Votre nom :</label>
-          <input type="text">
-          <label for="">Votre mail :</label>
-          <input type="mail">
-          <label for="">Votre message :</label>
-          <textarea type="text"></textarea>
-          <button class="py-2 px-4 border border-2 border-white">Envoyer</button>
+          <label for="name">Votre nom :</label>
+          <input type="text" id="name">
+          <label for="mail">Votre mail :</label>
+          <input type="mail" id="mail">
+          <label for="msg">Votre message :</label>
+          <textarea type="text" id="msg"></textarea>
+          <button type="button" class="py-2 px-4 border border-2 border-white">Envoyer</button>
         </form>
       </div>
     </div>
@@ -232,6 +245,9 @@ h1, h2, h3, h4, h5, h6 {
     z-index: -1;
     margin-left: auto;
     margin-right: auto;
+    @media (min-width: 1024px) {
+      transform: translateX(-15rem);
+    }
   }
 }
 form > input, textarea {
@@ -239,10 +255,4 @@ form > input, textarea {
   border-bottom: 1px solid white;
   width: 100%;
 }
-// form > label {
-//   transform: translateY(3.5rem);
-// }
-// input:focus + label {
-//   transform: translateY(1rem);
-// }
 </style>
