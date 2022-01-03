@@ -5,7 +5,7 @@
         <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
         <h1 class="text-5xl">Je suis Natthan GUILHOT</h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
-        <a href="#contactForm" class="bg-black px-8 py-4 text-white">ME CONTACTER</a>
+        <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
       </div>
       <div class="h-[450px] my-8">
         <img src="./assets/PPPro-removebg-preview.png" alt="Natthan Guilhot" class="h-full w-full object-center object-contain">
@@ -62,19 +62,123 @@
         <p>En tant que développeur full-stack, je suis amené à travailler sur beaucoup de choses.</p>
       </div>
       <div class="px-8">
-        <div class="flex my-8 w-full">
-          <div class="h-16 w-16 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
-            <i class="fas fa-lightbulb"></i>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fas fa-user"></i>
           </div>
           <div class="ml-4 w-9/12">
-            <h3 class="text-2xl font-bold mb-4">1. STRATEGIE</h3>
-            <p>Aliquip mollit reprehenderit eu voluptate tempor. Esse occaecat sunt dolore mollit reprehenderit incididunt et amet id tempor.</p>
+            <h3 class="text-2xl font-bold mb-4">FRONT-END</h3>
+            <p>Le développement front-end correspond à la conception de l’interface graphique utilisateur.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fab fa-vuejs"></i>
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">VUE.JS</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <img src="./assets/tailwindcss.svg" alt="Tailwind" class="h-full w-full p-2">
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">TAILWINDCSS</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">BACK-END</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fab fa-node-js"></i>
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">NODE.JS</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">MONGODB</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+          </div>
+        </div>
+        <div class="flex my-8 w-full min-h-[200px]">
+          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="ml-4 w-9/12">
+            <h3 class="text-2xl font-bold mb-4">MYSQL</h3>
+            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="bgafter relative z-10 py-8 my-16">
+      <div class="px-8">
+        <div class="my-8">
+          <img src="./assets/screen_vrtig0.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+        </div>
+        <div class="my-8">
+          <img src="./assets/screen_hyvirea.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+        </div>
+        <div class="my-8">
+          <img src="./assets/screen_skincasts.png" alt="" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+        </div>
+      </div>
+      <div class="px-8 bg-white h-auto py-4">
+        <h2 class="text-4xl font-bold py-8">Mon travail</h2>
+        <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessible à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés car non ouvert au public</p>
+        <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl">Me contacter</a>
+      </div>
+    </section>
   </main>
+
+  <section class="bg-gray-300 py-16 text-center">
+    <div class="px-8 flex flex-col justify-center items-center space-y-8">
+      <div>
+        <img src="./assets/PPPro.jpg" alt="" class="h-40 w-40 rounded-full border border-4 border-orange-600 object-cover object-top">
+      </div>
+      <p>In ipsum non proident aliqua enim veniam. Anim laborum consectetur mollit duis sunt labore esse enim cillum amet. Mollit velit laboris enim aliquip anim cupidatat cillum aute. Nisi esse Lorem est ipsum nisi elit et aliqua. Proident voluptate amet laborum do qui officia anim reprehenderit aliquip irure aliqua veniam. Ea magna nostrud minim ipsum velit Lorem consequat anim in minim adipisicing consequat. Ad cillum duis incididunt cillum minim id dolore nostrud cupidatat reprehenderit sit id.</p>
+      <p class="text-xl">Natthan Guilhot</p>
+    </div>
+  </section>
+
+  <section class="bg-[#292E33] text-white py-16">
+    <div class="px-8">
+      <div>
+        <p class="text-xl">Prêt à échanger ?</p>
+        <h2 class="text-4xl font-bold py-8">Me contacter</h2>
+        <p>N'hésitez pas à prendre contact avec moi si vous souhaitez en savoir plus sur moi ou mon travail.</p>
+      </div>
+      <div>
+        <form action="" class="flex flex-col space-y-8 my-8 justify-center items-start">
+          <label for="">Votre nom :</label>
+          <input type="text">
+          <label for="">Votre mail :</label>
+          <input type="mail">
+          <label for="">Votre message :</label>
+          <textarea type="text"></textarea>
+          <button class="py-2 px-4 border border-2 border-white">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
 </template> 
 
 <script>
@@ -100,4 +204,28 @@ export default {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', 'Montserrat', Arial, sans-serif;
 }
+.bgafter {
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(234 88 12);
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+form > input, textarea {
+  background-color: #292E33;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+// form > label {
+//   transform: translateY(3.5rem);
+// }
+// input:focus + label {
+//   transform: translateY(1rem);
+// }
 </style>
