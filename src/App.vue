@@ -56,7 +56,7 @@
       <p>
         <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant de développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-orange-600 decoration-orange-600 decoration-4 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, ça ne me plaisait pas, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
       </p>
-      <div data-aos="fade-left" class="h-[400px] !w-[350px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
+      <div data-aos="fade-left" class="h-[400px] !w-[250px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
         <p class="font-bold text-xl">EMAIL</p>
         <p>natthan.dev@gmail.com</p>
         <p class="font-bold text-xl">PROFESSION</p>
@@ -229,7 +229,7 @@ export default {
     test(){
       var t = document.querySelector('#t');
       var typewriter = new Typewriter(t, {
-        loop:true,
+        loop:false,
       })
       typewriter
       .typeString('Natthan GUILHOT')
@@ -237,7 +237,7 @@ export default {
       .deleteAll()
       .typeString('Développeur web')
       .pauseFor(1500)
-      .start();
+      .start()
     },
     isStillAtTop(){
       if(window.scrollY > 870){
