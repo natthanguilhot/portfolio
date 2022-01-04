@@ -10,29 +10,29 @@
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
         <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
-        <h1 class="text-5xl lg:text-7xl">Je suis Natthan GUILHOT</h1>
+        <h1 class="text-5xl lg:text-7xl">Je suis <span id="t"></span></h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
         <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
       </div>
-      <div class="h-[450px] lg:h-full my-8 relative sm:w-6/12 sm:mb-0">
+      <div data-aos="fade-left" class="h-[450px] lg:h-full my-8 relative sm:w-6/12 sm:mb-0">
         <img src="./assets/PPPro-removebg-preview.png" alt="Natthan Guilhot" class="h-full w-full object-center object-contain">
       </div>
     </div>
   </header>
   <main>
 
-    <section id="profil" class="text-left px-8 text-lg mb-40 max-w-screen-xl lg:mx-auto">
+    <section data-aos="fade-up" id="profil" class="text-left px-8 text-lg mb-40 max-w-screen-xl lg:mx-auto">
       <div class="my-8 sm:text-center">
         <h2 class="text-4xl font-bold">PROFIL</h2>
         <p class="my-8">Je suis un développeur Vue.js et Node.js</p>
       </div>
       <div class="sm:flex sm:justify-around sm:items-start sm:space-x-12 h-min">
-        <div class="sm:w-3/12">
+        <div data-aos="fade-right" class="sm:w-3/12">
           <h3 class="text-3xl">A propos</h3>
           <p class="my-8">Je suis un développeur web full-stack. Avec un an d'alternance dans une start-up, diplomé de l'école OpenClassRooms.</p>
         </div>
-        <img src="./assets/PPPro.jpg" alt="Natthan Guilhot" class="h-80 w-80 sm:h-60 sm:w-60 rounded-full object-top object-cover mt-24 sm:w-3/12 sm:mt-0">
-        <div class="my-10 sm:w-3/12 sm:mt-0">
+        <img data-aos="fade-up" src="./assets/PPPro.jpg" alt="Natthan Guilhot" class="h-80 w-80 sm:h-60 sm:w-60 rounded-full object-top object-cover mt-24 sm:w-3/12 sm:mt-0">
+        <div data-aos="fade-left" class="my-10 sm:w-3/12 sm:mt-0">
           <h3 class="text-3xl my-8 sm:mt-0">Détails</h3>
           <div class="flex flex-col space-y-3">
             <h4 class="font-bold">Nom :</h4>
@@ -56,7 +56,7 @@
       <p>
         <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant de développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-orange-600 decoration-orange-600 decoration-4 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, ça ne me plaisait pas, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
       </p>
-      <div class="h-[400px] !w-[350px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
+      <div data-aos="fade-left" class="h-[400px] !w-[350px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
         <p class="font-bold text-xl">EMAIL</p>
         <p>natthan.dev@gmail.com</p>
         <p class="font-bold text-xl">PROFESSION</p>
@@ -71,7 +71,7 @@
         <p>En tant que développeur full-stack, je suis amené à travailler sur beaucoup de choses.</p>
       </div>
       <div class="px-8 sm:flex sm:flex-wrap max-w-screen-xl lg:mx-auto">
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-user"></i>
           </div>
@@ -80,7 +80,7 @@
             <p>Le développement front-end correspond à la conception de l’interface graphique utilisateur.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-vuejs"></i>
           </div>
@@ -89,7 +89,7 @@
             <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <img src="./assets/tailwindcss.svg" alt="Tailwind" class="h-full w-full p-2">
           </div>
@@ -98,7 +98,7 @@
             <p>Un framework CSS contenant des classes, et qui peut être composé pour créer n'importe quel design, directement dans le balisage HTML.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-sass"></i>
           </div>
@@ -107,7 +107,7 @@
             <p>Sass est le langage d'extension CSS de qualité professionnelle le plus mature, stable et puissant  au monde.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-server"></i>
           </div>
@@ -116,7 +116,7 @@
             <p>Le back-end est la maîtrise toute la partie invisible pour l’utilisateur, mais qui va permettre le bon fonctionnement d’un site internet</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-node-js"></i>
           </div>
@@ -125,7 +125,7 @@
             <p>Node.js est un environnement d'exécution JavaScript open source et multiplateforme.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-database"></i>
           </div>
@@ -134,7 +134,7 @@
             <p>MongoDB est un système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données.</p>
           </div>
         </div>
-        <div class="flex my-8 w-full min-h-[200px] sm:w-6/12">
+        <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
           <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-database"></i>
           </div>
@@ -148,27 +148,27 @@
 
     <section id="mywork" class="bgafter relative z-10 py-8 my-16 sm:relative max-w-screen-xl lg:mx-auto">
       <div class="px-8 sm:flex sm:flex-wrap sm:space-y-8">
-        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out" data-aos-delay="0" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://vrtig0.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out" data-aos-delay="100" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://hyvirea.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out" data-aos-delay="200" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out" data-aos-delay="300" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out" data-aos-delay="400" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenmangaup.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
@@ -217,6 +217,7 @@
 
 <script>
 import emailjs from '@emailjs/browser';
+import Typewriter from 'typewriter-effect/dist/core';
 export default {
   name: 'App',
   data(){
@@ -225,6 +226,19 @@ export default {
     }
   },
   methods: {
+    test(){
+      var t = document.querySelector('#t');
+      var typewriter = new Typewriter(t, {
+        loop:true,
+      })
+      typewriter
+      .typeString('Natthan GUILHOT')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('Développeur web')
+      .pauseFor(1500)
+      .start();
+    },
     isStillAtTop(){
       if(window.scrollY > 870){
         this.isScrolling=true;
@@ -250,6 +264,9 @@ export default {
     window.addEventListener('scroll', this.isStillAtTop);
     window.addEventListener('hashchange', this.anchorPixel);
   },
+  mounted(){
+    this.test();
+  }
 }
 </script>
 
