@@ -169,7 +169,7 @@
           </a>
         </div>
         <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <a href="">
+          <a href="https://skincasts.fr">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
