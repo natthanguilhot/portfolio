@@ -10,7 +10,7 @@
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
         <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
-        <h1 class="text-5xl lg:text-7xl">Je suis <span id="t"></span></h1>
+        <h1 class="text-5xl lg:text-7xl">Je suis <span id="typewriter1"></span></h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
         <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
       </div>
@@ -148,29 +148,34 @@
 
     <section id="mywork" class="bgafter relative z-10 py-8 my-16 sm:relative max-w-screen-xl lg:mx-auto">
       <div class="px-8 sm:flex sm:flex-wrap sm:space-y-8">
-        <div data-aos="zoom-out" data-aos-delay="0" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+          <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
+            <img src="./assets/screenmangaup.png" alt="Projet MangaUp" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
+        </div>
+        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://vrtig0.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out" data-aos-delay="100" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://hyvirea.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out" data-aos-delay="200" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+          <a href="https://github.com/natthanguilhot/GUILHOTNATTHAN_7_12082021" target="_blank" rel="noopener">
+            <img src="./assets/screengroupo.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a>
+        </div>
+        <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out" data-aos-delay="300" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
           <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
-        </div>
-        <div data-aos="zoom-out" data-aos-delay="400" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
-            <img src="./assets/screenmangaup.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
       </div>
@@ -218,6 +223,7 @@
 <script>
 import emailjs from '@emailjs/browser';
 import Typewriter from 'typewriter-effect/dist/core';
+
 export default {
   name: 'App',
   data(){
@@ -227,16 +233,16 @@ export default {
   },
   methods: {
     test(){
-      var t = document.querySelector('#t');
-      var typewriter = new Typewriter(t, {
-        loop:false,
+      var typewriter1 = document.querySelector('#typewriter1');
+      var typewriter = new Typewriter(typewriter1, {
+        loop:true,
       })
       typewriter
       .typeString('Natthan GUILHOT')
-      .pauseFor(1500)
+      .pauseFor(2000)
       .deleteAll()
       .typeString('Développeur web')
-      .pauseFor(1500)
+      .pauseFor(2000)
       .start()
     },
     isStillAtTop(){
