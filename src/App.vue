@@ -24,7 +24,7 @@
     <section id="profil" class="text-left px-8 text-lg mb-40 max-w-screen-xl lg:mx-auto">
       <div class="my-8 sm:text-center">
         <h2 class="text-4xl font-bold">PROFIL</h2>
-        <p class="my-8">Je suis un développeur Vue.js</p>
+        <p class="my-8">Je suis un développeur Vue.js et Node.js</p>
       </div>
       <div class="sm:flex sm:justify-around sm:items-start sm:space-x-12 h-min">
         <div class="sm:w-3/12">
@@ -177,12 +177,12 @@
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:translate-x-[45rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
         <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessible à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés car non ouvert au public.</p>
-        <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl hover:text-white">Me contacter</a>
+        <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl hover:text-white hover:bg-black active:text-black active:bg-white">Me contacter</a>
       </div>
     </section>
   </main>
 
-  <section class="bg-gray-300 py-16 text-center">
+  <!-- <section class="bg-gray-300 py-16 text-center">
     <div class="px-8 flex flex-col justify-center items-center space-y-8 max-w-screen-xl lg:mx-auto">
       <div>
         <img src="./assets/PPPro.jpg" alt="" class="h-40 w-40 rounded-full border border-4 border-orange-600 object-cover object-top">
@@ -190,7 +190,7 @@
       <p>In ipsum non proident aliqua enim veniam. Anim laborum consectetur mollit duis sunt labore esse enim cillum amet. Mollit velit laboris enim aliquip anim cupidatat cillum aute. Nisi esse Lorem est ipsum nisi elit et aliqua. Proident voluptate amet laborum do qui officia anim reprehenderit aliquip irure aliqua veniam. Ea magna nostrud minim ipsum velit Lorem consequat anim in minim adipisicing consequat. Ad cillum duis incididunt cillum minim id dolore nostrud cupidatat reprehenderit sit id.</p>
       <p class="text-xl">Natthan Guilhot</p>
     </div>
-  </section>
+  </section> -->
 
   <footer class="bg-[#292E33] text-white py-16">
     <div class="px-8 max-w-screen-xl lg:mx-auto">
@@ -200,14 +200,14 @@
         <p>N'hésitez pas à prendre contact avec moi si vous souhaitez en savoir plus sur moi ou mon travail.</p>
       </div>
       <div>
-        <form action="" class="flex flex-col space-y-8 my-8 justify-center items-start">
+        <form ref="form" @submit.prevent="sendEmail" class="flex flex-col space-y-8 my-8 justify-center items-start">
           <label for="name">Votre nom :</label>
-          <input type="text" id="name">
+          <input name="from_name" type="text" id="name" minlength="2" required>
           <label for="mail">Votre mail :</label>
-          <input type="mail" id="mail">
+          <input name="reply_to" type="mail" id="mail" minlength="4" required>
           <label for="msg">Votre message :</label>
-          <textarea type="text" id="msg"></textarea>
-          <button type="button" class="py-2 px-4 border border-2 border-white">Envoyer</button>
+          <textarea name="message" type="text" id="msg" minlength="20" maxlength="250" required></textarea>
+          <button type="submit" class="py-2 px-4 border border-2 border-white">Envoyer</button>
         </form>
       </div>
     </div>
@@ -216,6 +216,7 @@
 </template> 
 
 <script>
+import emailjs from '@emailjs/browser';
 export default {
   name: 'App',
   data(){
@@ -233,7 +234,17 @@ export default {
     },
     anchorPixel(){
       window.scrollTo(window.scrollY - 300);
-    }
+    },
+    sendEmail() {
+      emailjs.sendForm('service_eqenvec', 'template_htic5me', this.$refs.form, 'user_wKmhV5TATN5TzDkCyot3l')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+            alert('Email envoyé !');
+        }, (error) => {
+            alert('Erreur lors de l\'envoie ' + error.text);
+            console.log('FAILED...', error.text);
+        });
+    },
   },
   created(){
     window.addEventListener('scroll', this.isStillAtTop);
