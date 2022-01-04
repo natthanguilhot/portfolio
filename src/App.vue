@@ -169,7 +169,7 @@
           </a>
         </div>
         <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
-          <a href="https://skincasts.fr">
+          <a href="https://skincasts.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
@@ -214,6 +214,12 @@
           <textarea name="message" type="text" id="msg" minlength="20" maxlength="250" required></textarea>
           <button type="submit" class="py-2 px-4 border border-2 border-white">Envoyer</button>
         </form>
+      </div>
+      <div class="flex justify-start items-center space-x-8">
+        <a aria-label="Lien vers mon Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/natthanguilhot" class="text-5xl text-[#007BB5]"><i class="fab fa-linkedin"></i></a>
+        <a aria-label="Lien vers mon adresse mail" href="mailto:natthan.dev@gmail.com" class="text-5xl text-[#db4a39]"><i class="fas fa-envelope"></i></a>
+        <a aria-label="Lien vers mon profil Malt" href="https://www.malt.fr/profile/natthanguilhot?overview=true" target="_blank" rel="noopener"><img src="./assets/malt-red.svg" alt="Profil Malt" class="h-20 w-20"></a>
+        <a href="https://github.com/natthanguilhot" target="_blank" rel="noopener" class="text-5xl"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </footer>
