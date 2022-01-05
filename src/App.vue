@@ -51,21 +51,24 @@
       </div>
     </section>
 
-    <section class="text-left text-lg px-8 my-8 max-w-screen-xl lg:mx-auto lg:mb-40">
+    <section class="text-left text-lg px-8 my-8 max-w-screen-xl lg:mx-auto">
       <h2 class="text-4xl font-bold underline underline-offset-4 decoration-8 decoration-sky-700 my-8">A PROPOS DE MOI</h2>
       <p>
         <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant que développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-sky-700 decoration-sky-700 decoration-2 underline-offset-1 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, je ne me sentais pas épanoui dans ce domaine, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
       </p>
-      <div data-aos="fade-left" class="h-[400px] !w-[250px] bg-sky-700 mx-auto text-white p-4 my-8 lg:float-right">
-        <p class="font-bold text-xl mt-8">EMAIL</p>
-        <p>natthan.dev@gmail.com</p>
-        <p class="font-bold text-xl mt-8 block">PROFESSION</p>
-        <p>Développeur web full-stack</p>
+      <div class="lg:flex lg:flex-row-reverse">
+        <div data-aos="fade-left" class="h-[400px] !w-[250px] bg-sky-700 mx-auto text-white p-4 my-8">
+          <p class="font-bold text-xl mt-8">EMAIL</p>
+          <p>natthan.dev@gmail.com</p>
+          <p class="font-bold text-xl mt-8 block">PROFESSION</p>
+          <p>Développeur web full-stack</p>
+        </div>
+        <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.
+        </p>
       </div>
-      <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.</p>
     </section>
 
-    <section id="howiwork" class="bg-gray-300 py-8">
+    <section id="howiwork" class="bg-gray-300 py-8 lg:-mt-20">
       <div class="text-center px-8 max-w-screen-xl lg:mx-auto">
         <h2 class="text-4xl font-bold my-4">CE QUE JE FAIS</h2>
         <p>En tant que développeur full-stack, je suis amené à travailler sur beaucoup de choses.</p>
@@ -86,7 +89,7 @@
           </div>
           <div class="ml-4 w-9/12">
             <h3 class="text-2xl font-bold mb-4">VUE.JS</h3>
-            <p>Vue.Jd est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçue et pensé pour pouvoir être adopté de manière incrémentale.</p>
+            <p>Vue.Js est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçue et pensé pour pouvoir être adopté de manière incrémentale.</p>
           </div>
         </div>
         <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
@@ -238,7 +241,7 @@ export default {
     }
   },
   methods: {
-    test(){
+    typewriter(){
       var typewriter1 = document.querySelector('#typewriter1');
       var typewriter = new Typewriter(typewriter1, {
         loop:true,
@@ -257,16 +260,16 @@ export default {
       .pauseFor(2000)
       .start()
     },
-    isStillAtTop(){
-      if(window.scrollY > 870){
-        this.isScrolling=true;
-      } else {
-        this.isScrolling=false;
-      }
-    },
-    anchorPixel(){
-      window.scrollTo(window.scrollY - 300);
-    },
+    // isStillAtTop(){
+    //   if(window.scrollY > 870){
+    //     this.isScrolling=true;
+    //   } else {
+    //     this.isScrolling=false;
+    //   }
+    // },
+    // anchorPixel(){
+    //   window.scrollTo(window.scrollY - 300);
+    // },
     sendEmail() {
       emailjs.sendForm('service_eqenvec', 'template_htic5me', this.$refs.form, 'user_wKmhV5TATN5TzDkCyot3l')
         .then((result) => {
@@ -278,12 +281,12 @@ export default {
         });
     },
   },
-  created(){
-    window.addEventListener('scroll', this.isStillAtTop);
-    window.addEventListener('hashchange', this.anchorPixel);
-  },
+  // created(){
+  //   window.addEventListener('scroll', this.isStillAtTop);
+  //   window.addEventListener('hashchange', this.anchorPixel);
+  // },
   mounted(){
-    this.test();
+    this.typewriter();
   }
 }
 </script>
@@ -302,7 +305,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  overflow-x: hidden;
+  @media (max-width:1024px) {
+    overflow-x: hidden;    
+  }
 }
 h1 {
   font-family: 'Roboto' ,Avenir, Helvetica, Arial, sans-serif;
