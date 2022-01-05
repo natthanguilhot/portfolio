@@ -56,7 +56,7 @@
           <p class="font-bold text-xl mt-8 block">PROFESSION</p>
           <p>Développeur web full-stack</p>
         </div>
-        <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance, …). Le développement d’application a été très formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnu  au RNCP bac +2. <br>Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.
+        <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance, …). Le développement d’application a été très formateur notamment par rapport au développement en groupe, ce qui m’a permis de consolider et améliorer mes connaissances. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnu  au RNCP bac +2. <br>Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.
         </p>
       </div>
     </section>
