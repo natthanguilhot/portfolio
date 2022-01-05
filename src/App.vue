@@ -9,10 +9,10 @@
     </nav> -->
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
-        <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
+        <div class="h-20 w-20 bg-sky-700 rounded-full my-6"></div>
         <h1 class="text-5xl lg:text-7xl h-[150px] sm:h-[200px]">Je suis <span id="typewriter1"></span></h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
-        <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
+        <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-sky-700">ME CONTACTER</a>
       </div>
       <div data-aos="fade-left" class="h-[450px] lg:h-full my-8 relative sm:w-6/12 sm:mb-0">
         <img src="./assets/PPPro-removebg-preview.png" alt="Natthan Guilhot" class="h-full w-full object-center object-contain">
@@ -23,17 +23,22 @@
 
     <section data-aos="fade-up" id="profil" class="text-left px-8 text-lg mb-40 max-w-screen-xl lg:mx-auto">
       <div class="my-8 sm:text-center">
-        <h2 class="text-4xl font-bold">PROFIL</h2>
-        <p class="my-8">Je suis un développeur Vue.js et Node.js</p>
+        <h2 class="text-4xl font-bold mb-16">PROFIL</h2>
+        <!-- <p class="my-8">Je suis un développeur Vue.js et Node.js</p> -->
       </div>
       <div class="sm:flex sm:justify-around sm:items-start sm:space-x-12 h-min">
         <div data-aos="fade-right" class="sm:w-3/12">
-          <h3 class="text-3xl">A propos</h3>
+          <!-- <h3 class="text-3xl">A propos</h3> -->
           <p class="my-8">Je suis un développeur web full-stack. Avec un an d'alternance dans une start-up, diplomé de l'école OpenClassRooms.</p>
+          <div class="flex justify-start items-center space-x-4 my-8">
+            <a aria-label="Lien vers mon Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/natthanguilhot" class="text-5xl text-[#007BB5]"><i class="fab fa-linkedin"></i></a>
+            <a aria-label="Lien vers mon adresse mail" href="mailto:natthan.dev@gmail.com" class="text-5xl text-[#db4a39]"><i class="fas fa-envelope"></i></a>
+            <a aria-label="Lien vers mon profil Malt" href="https://www.malt.fr/profile/natthanguilhot?overview=true" target="_blank" rel="noopener"><img src="./assets/malt-red.svg" alt="Profil Malt" class="h-20 w-20"></a>
+          </div>
         </div>
         <img data-aos="fade-up" src="./assets/PPPro.jpg" alt="Natthan Guilhot" class="h-80 w-80 sm:h-60 sm:w-60 rounded-full object-top object-cover mt-24 sm:w-3/12 sm:mt-0">
         <div data-aos="fade-left" class="my-10 sm:w-3/12 sm:mt-0">
-          <h3 class="text-3xl my-8 sm:mt-0">Détails</h3>
+          <!-- <h3 class="text-3xl my-8 sm:mt-0">Détails</h3> -->
           <div class="flex flex-col space-y-3">
             <h4 class="font-bold">Nom :</h4>
             <p>Natthan Guilhot</p>
@@ -42,27 +47,22 @@
             <h4 class="font-bold">Localisation :</h4>
             <p>Bouches-du-Rhone, France</p>
           </div>
-          <div class="flex justify-start items-center space-x-4 my-8">
-            <a aria-label="Lien vers mon Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/natthanguilhot" class="text-5xl text-[#007BB5]"><i class="fab fa-linkedin"></i></a>
-            <a aria-label="Lien vers mon adresse mail" href="mailto:natthan.dev@gmail.com" class="text-5xl text-[#db4a39]"><i class="fas fa-envelope"></i></a>
-            <a aria-label="Lien vers mon profil Malt" href="https://www.malt.fr/profile/natthanguilhot?overview=true" target="_blank" rel="noopener"><img src="./assets/malt-red.svg" alt="Profil Malt" class="h-20 w-20"></a>
-          </div>
         </div>
       </div>
     </section>
 
     <section class="text-left text-lg px-8 my-8 max-w-screen-xl lg:mx-auto lg:mb-40">
-      <h2 class="text-4xl font-bold underline underline-offset-4 decoration-8 decoration-orange-600 my-8">A PROPOS DE MOI</h2>
+      <h2 class="text-4xl font-bold underline underline-offset-4 decoration-8 decoration-sky-700 my-8">A PROPOS DE MOI</h2>
       <p>
-        <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant de développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-orange-600 decoration-orange-600 decoration-4 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, ça ne me plaisait pas, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
+        <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant que développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-sky-700 decoration-sky-700 decoration-2 underline-offset-1 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, je ne me sentais pas épanoui dans ce domaine, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
       </p>
-      <div data-aos="fade-left" class="h-[400px] !w-[250px] bg-orange-600 mx-auto text-white p-4 space-y-4 my-8 lg:float-right">
-        <p class="font-bold text-xl">EMAIL</p>
+      <div data-aos="fade-left" class="h-[400px] !w-[250px] bg-sky-700 mx-auto text-white p-4 my-8 lg:float-right">
+        <p class="font-bold text-xl mt-8">EMAIL</p>
         <p>natthan.dev@gmail.com</p>
-        <p class="font-bold text-xl">PROFESSION</p>
+        <p class="font-bold text-xl mt-8 block">PROFESSION</p>
         <p>Développeur web full-stack</p>
       </div>
-      <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client ( pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.</p>
+      <p class="lg:mt-8"> Durant mon année chez VR'TIG.0 j'ai effectué d'une part le développement des sites de l'entreprise. Et d'autre part le développement d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance, …). Le développement d’application a beaucoup été formateur notamment par rapport au développement en groupe. Ce qui m’a permis de consolider et améliorer mes connaissances en front-end également. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnue RNCP bac +2. Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.</p>
     </section>
 
     <section id="howiwork" class="bg-gray-300 py-8">
@@ -72,7 +72,7 @@
       </div>
       <div class="px-8 sm:flex sm:flex-wrap max-w-screen-xl lg:mx-auto">
         <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-user"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -81,16 +81,16 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-vuejs"></i>
           </div>
           <div class="ml-4 w-9/12">
             <h3 class="text-2xl font-bold mb-4">VUE.JS</h3>
-            <p>Vue est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.</p>
+            <p>Vue.Jd est un framework évolutif pour construire des interfaces utilisateur. Vue a été conçue et pensé pour pouvoir être adopté de manière incrémentale.</p>
           </div>
         </div>
         <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <img src="./assets/tailwindcss.svg" alt="Tailwind" class="h-full w-full p-2">
           </div>
           <div class="ml-4 w-9/12">
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-sass"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -108,7 +108,7 @@
           </div>
         </div>
         <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-server"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fab fa-node-js"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -126,7 +126,7 @@
           </div>
         </div>
         <div data-aos="fade-right" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-database"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -135,7 +135,7 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
-          <div class="!h-20 !w-20 bg-orange-600 rounded-full text-5xl w-3/12 flex justify-center items-center">
+          <div class="!h-20 !w-20 bg-sky-700 rounded-full text-5xl w-3/12 flex justify-center items-center">
             <i class="fas fa-database"></i>
           </div>
           <div class="ml-4 w-9/12">
@@ -181,7 +181,7 @@
       </div>
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:translate-x-[45rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
-        <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessible à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés car non ouvert au public.</p>
+        <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessibles à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés, car non ouvert au public.</p>
         <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl hover:text-white hover:bg-black active:text-black active:bg-white">Me contacter</a>
       </div>
     </section>
@@ -190,7 +190,7 @@
   <!-- <section class="bg-gray-300 py-16 text-center">
     <div class="px-8 flex flex-col justify-center items-center space-y-8 max-w-screen-xl lg:mx-auto">
       <div>
-        <img src="./assets/PPPro.jpg" alt="" class="h-40 w-40 rounded-full border border-4 border-orange-600 object-cover object-top">
+        <img src="./assets/PPPro.jpg" alt="" class="h-40 w-40 rounded-full border border-4 border-sky-700 object-cover object-top">
       </div>
       <p>In ipsum non proident aliqua enim veniam. Anim laborum consectetur mollit duis sunt labore esse enim cillum amet. Mollit velit laboris enim aliquip anim cupidatat cillum aute. Nisi esse Lorem est ipsum nisi elit et aliqua. Proident voluptate amet laborum do qui officia anim reprehenderit aliquip irure aliqua veniam. Ea magna nostrud minim ipsum velit Lorem consequat anim in minim adipisicing consequat. Ad cillum duis incididunt cillum minim id dolore nostrud cupidatat reprehenderit sit id.</p>
       <p class="text-xl">Natthan Guilhot</p>
@@ -202,7 +202,7 @@
       <div>
         <p class="text-xl">Prêt à échanger ?</p>
         <h2 id="contactForm" class="text-4xl font-bold py-8">Me contacter</h2>
-        <p>N'hésitez pas à prendre contact avec moi si vous souhaitez en savoir plus sur moi ou mon travail.</p>
+        <p>N'hésitez pas à prendre contact si vous souhaitez en savoir plus sur moi ou mon travail.</p>
       </div>
       <div>
         <form ref="form" @submit.prevent="sendEmail" class="flex flex-col space-y-8 my-8 justify-center items-start">
@@ -320,7 +320,7 @@ h3, h4, h5, h6 {
     inset: 0;
     height: 100%;
     width: 300px;
-    background-color: rgb(234 88 12);
+    background-color: #0369a1;
     z-index: -1;
     margin-left: auto;
     margin-right: auto;
