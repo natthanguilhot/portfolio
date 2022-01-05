@@ -22,7 +22,7 @@
   <main>
 
     <section data-aos="fade-up" id="profil" class="text-left px-8 text-lg mb-40 max-w-screen-xl lg:mx-auto">
-      <div class="my-8 sm:text-center">
+      <div class="my-8 mt-24 sm:text-center">
         <h2 class="text-4xl font-bold mb-16">PROFIL</h2>
         <!-- <p class="my-8">Je suis un développeur Vue.js et Node.js</p> -->
       </div>
