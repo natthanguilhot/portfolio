@@ -180,7 +180,7 @@
           </a> -->
         </div>
       </div>
-      <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:translate-x-[45rem]">
+      <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:!translate-x-[32rem] xl:!translate-x-[42rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
         <p class="py-8">Vous pouvez retrouver ici, toutes les missions qui sont accessibles à tous. J'ai cependant réalisé d'autres projets qui ne sont pas forcément affichés, car non ouvert au public.</p>
         <a href="#contactForm" class="py-4 px-8 border border-black border-2 bg-white my-8 block w-max font-bold text-2xl hover:text-white hover:bg-black active:text-black active:bg-white">Me contacter</a>
