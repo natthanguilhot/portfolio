@@ -1,12 +1,5 @@
 <template>
   <header class="bg-gray-300">
-    <!-- <nav :class="[isScrolling ? 'bg-gray-300 fixed' : 'bg-white']" class="text-2xl w-full mx-auto z-50 transition-all">
-      <ul class="flex justify-around items-center max-w-screen-xl lg:mx-auto">
-        <li :class="[isScrolling ? 'bg-white' : 'bg-gray-300']" class="py-4 px-2 rounded-lg m-2 sm:w-3/12 max-w-[200px] text-center invisible sm:visible"><a class="h-full w-full" href="#profil">Moi</a></li>
-        <li :class="[isScrolling ? 'bg-white' : 'bg-gray-300']" class="py-4 px-2 rounded-lg m-2 sm:w-3/12 max-w-[200px] text-center invisible sm:visible"><a class="h-full w-full" href="#howiwork">Ce que je fais</a></li>
-        <li :class="[isScrolling ? 'bg-white' : 'bg-gray-300']" class="py-4 px-2 rounded-lg m-2 sm:w-3/12 max-w-[200px] text-center invisible sm:visible"><a class="h-full w-full" href="#mywork">Mon travail</a></li>
-      </ul>
-    </nav> -->
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
         <div class="h-20 w-20 bg-sky-700 rounded-full my-6"></div>
@@ -151,35 +144,40 @@
 
     <section id="mywork" class="bgafter relative z-10 py-8 my-16 sm:relative max-w-screen-xl lg:mx-auto">
       <div class="px-8 sm:flex sm:flex-wrap sm:space-y-8">
-        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenmangaup.png" alt="Projet MangaUp" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://vrtig0.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://hyvirea.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <!-- <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://github.com/natthanguilhot/GUILHOTNATTHAN_7_12082021" target="_blank" rel="noopener">
             <img src="./assets/screengroupo.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
-        </div>
-        <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        </div> -->
+        <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://skincasts.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12">
+        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px]">
           <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
+        </div>
+        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] !w-[350px] bg-transparent">
+          <!-- <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
+            <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
+          </a> -->
         </div>
       </div>
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:translate-x-[45rem]">
@@ -260,16 +258,6 @@ export default {
       .pauseFor(2000)
       .start()
     },
-    // isStillAtTop(){
-    //   if(window.scrollY > 870){
-    //     this.isScrolling=true;
-    //   } else {
-    //     this.isScrolling=false;
-    //   }
-    // },
-    // anchorPixel(){
-    //   window.scrollTo(window.scrollY - 300);
-    // },
     sendEmail() {
       emailjs.sendForm('service_eqenvec', 'template_htic5me', this.$refs.form, 'user_wKmhV5TATN5TzDkCyot3l')
         .then((result) => {
@@ -281,10 +269,6 @@ export default {
         });
     },
   },
-  // created(){
-  //   window.addEventListener('scroll', this.isStillAtTop);
-  //   window.addEventListener('hashchange', this.anchorPixel);
-  // },
   mounted(){
     this.typewriter();
   }
