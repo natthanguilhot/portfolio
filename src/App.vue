@@ -10,7 +10,7 @@
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
         <div class="h-20 w-20 bg-orange-600 rounded-full my-6"></div>
-        <h1 class="text-5xl lg:text-7xl h-[200px]">Je suis <span id="typewriter1"></span></h1>
+        <h1 class="text-5xl lg:text-7xl h-[150px] sm:h-[200px]">Je suis <span id="typewriter1"></span></h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
         <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-orange-600">ME CONTACTER</a>
       </div>
@@ -51,7 +51,7 @@
       </div>
     </section>
 
-    <section class="text-left text-lg my-8 max-w-screen-xl lg:mx-auto lg:mb-40">
+    <section class="text-left text-lg px-8 my-8 max-w-screen-xl lg:mx-auto lg:mb-40">
       <h2 class="text-4xl font-bold underline underline-offset-4 decoration-8 decoration-orange-600 my-8">A PROPOS DE MOI</h2>
       <p>
         <span class="font-bold mb-2 block">Je m'appelle Natthan Guilhot, j'ai travaillé en tant de développeur web alternant dans une entreprise appelé <a href="https://www.vrtig0.fr" target="_blank" rel="noopener" class="hover:text-orange-600 decoration-orange-600 decoration-4 underline active:decoration-8 hover:underline-offset-4 active:underline-offset-1 transition-all duration-150 ease-in-out">VR'TIG.0</a> pendant 1 an.</span><br> <span>J’ai eu différents parcours dans ma vie. Dans un premier temps, j’ai suivi un BTS comptabilité et gestion dans lequel j’ai adoré apprendre. Cependant, ça ne me plaisait pas, alors j’ai commencé à travailler dans différents domaines. J’ai par la suite découvert le monde du développement, et j’ai directement accroché aux différentes facettes comme l’apprentissage qui ne cesse de croitre et le sentiment de satisfaction lors de la création.</span>
@@ -302,6 +302,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
+  overflow-x: hidden;
 }
 h1 {
   font-family: 'Roboto' ,Avenir, Helvetica, Arial, sans-serif;
