@@ -169,12 +169,12 @@
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
           <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px] bg-transparent">
+        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px] bg-transparent">
           <!-- <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a> -->
