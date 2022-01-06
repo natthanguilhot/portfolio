@@ -109,7 +109,7 @@
           </div>
           <div class="ml-4 w-9/12">
             <h3 class="text-2xl font-bold mb-4">BACK-END</h3>
-            <p>Le back-end est la maîtrise toute la partie invisible pour l’utilisateur, mais qui va permettre le bon fonctionnement d’un site internet</p>
+            <p>Le back-end est la maîtrise de toute la partie invisible pour l’utilisateur, mais qui va permettre le bon fonctionnement d’un site internet.</p>
           </div>
         </div>
         <div data-aos="fade-left" class="flex my-8 w-full min-h-[200px] sm:w-6/12">
