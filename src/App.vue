@@ -147,41 +147,83 @@
 
     <section id="mywork" class="bgafter relative z-10 py-8 my-16 sm:relative max-w-screen-xl lg:mx-auto">
       <div class="px-8 sm:flex sm:flex-wrap sm:space-y-8">
-        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-right" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>Vue.js</li>
+              <li class="mb-20">TailwindCSS</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenmangaup.png" alt="Projet MangaUp" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-down" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>Vue.js</li>
+              <li class="mb-20">TailwindCSS</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://vrtig0.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-left" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>Vue.js</li>
+              <li class="mb-20">TailwindCSS</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://hyvirea.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-right" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-right" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>Vue.js</li>
+              <li class="mb-20">TailwindCSS</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://skincasts.fr" target="_blank" rel="noopener">
             <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-up" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-up" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li class="mb-20">MongoDB</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://scanatt.netlify.app//" target="_blank" rel="noopener">
             <img src="./assets/screenscanatt.png" alt="Projet réalisé en pour l'entreprise Skincasts" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-left" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+        <div data-aos="zoom-out-left" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
+          <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
+            <ul>
+              <li>Vue.js</li>
+              <li>TailwindCSS</li>
+              <li>Node.js</li>
+              <li class="mb-20">MySQL</li>
+              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+            </ul>
+          </div>
           <a href="https://groupomanianatthan.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screengroupomania.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <!-- <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px] bg-transparent">
-          <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
-            <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
-        </div> -->
       </div>
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:!translate-x-[32rem] xl:!translate-x-[42rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
@@ -325,5 +367,16 @@ form > input, textarea {
   background-color: #292E33;
   border-bottom: 1px solid white;
   width: 100%;
+}
+.div_project {
+  &:hover {
+    & > .sub_div_project {
+      z-index: 40;
+      display: block;
+      background-color: rgb(0,0,0,0.5);
+      backdrop-filter: blur(5px);
+      color:white;
+    }
+  }
 }
 </style>
