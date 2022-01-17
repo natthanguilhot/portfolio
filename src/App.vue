@@ -182,11 +182,11 @@
             <img src="./assets/screengroupomania.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
           </a>
         </div>
-        <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px] bg-transparent">
-          <!-- <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
+        <!-- <div data-aos="zoom-out-down" class="my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px] bg-transparent">
+          <a href="https://theonlinetodoapp.netlify.app/" target="_blank" rel="noopener">
             <img src="./assets/screenonelinetodoapp.png" alt="Projet réalisé en autonomie" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:!translate-x-[32rem] xl:!translate-x-[42rem]">
         <h2 class="text-4xl font-bold py-8">Mon travail</h2>
