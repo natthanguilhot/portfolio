@@ -164,36 +164,30 @@
             <ul>
               <li>Vue.js</li>
               <li class="mb-20">TailwindCSS</li>
-              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+              <a href="https://vrtig0.fr" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
             </ul>
           </div>
-          <a href="https://vrtig0.fr" target="_blank" rel="noopener">
-            <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
+          <img src="./assets/screen_vrtig0.png" alt="Site vitrine pour l'entreprise : VR'TIG.0" class="h-[350px] w-[350px] object-cover object-center mx-auto">
         </div>
         <div data-aos="zoom-out-left" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
           <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
             <ul>
               <li>Vue.js</li>
               <li class="mb-20">TailwindCSS</li>
-              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+              <a href="https://hyvirea.fr" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
             </ul>
           </div>
-          <a href="https://hyvirea.fr" target="_blank" rel="noopener">
-            <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
+          <img src="./assets/screen_hyvirea.png" alt="Site vitrine pour l'entreprise : HYVIREA" class="h-[350px] w-[350px] object-cover object-center mx-auto">
         </div>
         <div data-aos="zoom-out-right" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
           <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
             <ul>
               <li>Vue.js</li>
               <li class="mb-20">TailwindCSS</li>
-              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+              <a href="https://skincasts.fr" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
             </ul>
           </div>
-          <a href="https://skincasts.fr" target="_blank" rel="noopener">
-            <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
+          <img src="./assets/screen_skincasts.png" alt="Site vitrine pour l'entreprise : SKINCASTS" class="h-[350px] w-[350px] object-cover object-center mx-auto">
         </div>
         <div data-aos="zoom-out-up" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
           <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
@@ -203,12 +197,10 @@
               <li>JavaScript</li>
               <li>Node.js</li>
               <li class="mb-20">MongoDB</li>
-              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+              <a href="https://scanatt.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
             </ul>
           </div>
-          <a href="https://scanatt.netlify.app//" target="_blank" rel="noopener">
-            <img src="./assets/screenscanatt.png" alt="Projet réalisé en pour l'entreprise Skincasts" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
+          <img src="./assets/screenscanatt.png" alt="Projet réalisé en pour l'entreprise Skincasts" class="h-[350px] w-[350px] object-cover object-center mx-auto">
         </div>
         <div data-aos="zoom-out-left" class="div_project my-8 sm:w-5/12 sm:mx-auto lg:w-4/12 !h-[350px] sm:!w-[350px]">
           <div class="sub_div_project text-2xl absolute inset-0 flex justify-center items-center hidden text-center pt-12">
@@ -217,12 +209,10 @@
               <li>TailwindCSS</li>
               <li>Node.js</li>
               <li class="mb-20">MySQL</li>
-              <a href="https://mangaup.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
+              <a href="https://groupomanianatthan.netlify.app/" target="_blank" rel="noopener" class=" py-6 px-4 bg-white text-black mt-20 hover:bg-black hover:text-white">Voir le projet</a>
             </ul>
           </div>
-          <a href="https://groupomanianatthan.netlify.app/" target="_blank" rel="noopener">
-            <img src="./assets/screengroupomania.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
-          </a>
+          <img src="./assets/screengroupomania.png" alt="Projet réalisé lors de ma formation OpenClassRooms" class="h-[350px] w-[350px] object-cover object-center mx-auto">
         </div>
       </div>
       <div class="px-8 bg-white h-auto py-4 sm:w-8/12 lg:w-[450px] sm:my-8 sm:translate-x-52 sm:-translate-y-20 sm:pr-0 lg:!translate-x-[32rem] xl:!translate-x-[42rem]">
