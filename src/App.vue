@@ -2,7 +2,7 @@
   <header class="bg-gray-300">
     <div :class="[isScrolling ? 'sm:pt-40': '']" class="mx-auto px-8 sm:flex max-w-screen-xl sm:pt-20">
       <div class="flex flex-col justify-center items-start text-left font-bold sm:w-6/12">
-        <div class="h-20 w-20 bg-sky-700 rounded-full my-6"></div>
+        <img src="./assets/logo.png" alt="Natthan GUILHOT" class="h-[100px] w-[160px] my-8 aspect-auto">
         <h1 class="text-5xl lg:text-7xl h-[150px] sm:h-[200px]">Je suis <span id="typewriter1"></span></h1>
         <p class="my-4 text-lg">Développeur full-stack spécialisé en Vue.js pour le front-end et Node.js pour le back-end</p>
         <a href="#contactForm" class="bg-black px-8 py-4 text-white hover:bg-sky-700">ME CONTACTER</a>
@@ -55,6 +55,9 @@
           <p>natthan.dev@gmail.com</p>
           <p class="font-bold text-xl mt-8 block">PROFESSION</p>
           <p>Développeur web full-stack</p>
+          <div class="flex justify-center items-center">
+            <img src="./assets/logo.png" alt="Natthan GUILHOT" class="h-[100px] w-[160px] my-8 aspect-auto bg-gray-300 p-4">
+          </div>
         </div>
         <p class="lg:mt-8 max-w-4xl"> Durant mon année chez VR'TIG.0 j'ai effectué le développement des sites de l'entreprise, mais également d'applications pour les professionnels du secours et du soin d'urgence pour un client (pharmacie, pompier, ambulance…). Le développement d’application a été très formateur notamment par rapport au développement en groupe, ce qui m’a permis de consolider et améliorer mes connaissances. De par cette alternance, j'ai obtenu un diplôme de développeur web reconnu  au RNCP bac +2. <br>Pour parler un peu plus de moi, je suis passionné par l'informatique et le numérique de manière plus générale. Je regarde et suis de près l'esport. Enfin, je lis beaucoup de livre, surtout des mangas.
         </p>
