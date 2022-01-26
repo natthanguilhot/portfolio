@@ -223,7 +223,7 @@
     </section>
   </main>
 
-  <section class="bg-gray-300 py-16 text-center">
+  <!-- <section class="bg-gray-300 py-16 text-center">
     <div class="px-8 flex flex-col justify-center items-center space-y-8 max-w-screen-xl lg:mx-auto">
       <div>
         <img src="./assets/PPPro.jpg" alt="" class="h-40 w-40 rounded-full border border-4 border-sky-700 object-cover object-top">
@@ -231,7 +231,7 @@
       <p>In ipsum non proident aliqua enim veniam. Anim laborum consectetur mollit duis sunt labore esse enim cillum amet. Mollit velit laboris enim aliquip anim cupidatat cillum aute. Nisi esse Lorem est ipsum nisi elit et aliqua. Proident voluptate amet laborum do qui officia anim reprehenderit aliquip irure aliqua veniam. Ea magna nostrud minim ipsum velit Lorem consequat anim in minim adipisicing consequat. Ad cillum duis incididunt cillum minim id dolore nostrud cupidatat reprehenderit sit id.</p>
       <p class="text-xl">Natthan Guilhot</p>
     </div>
-  </section>
+  </section> -->
 
   <footer class="bg-[#292E33] text-white py-16">
     <div class="px-8 max-w-screen-xl lg:mx-auto">
